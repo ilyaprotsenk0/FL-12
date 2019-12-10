@@ -157,10 +157,31 @@
         background-color: lightskyblue;
     }
 
+    #contact_name, #contact_email, #contact_subject {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: lightskyblue
+    }
+
+    #contact_message:focus {
+        box-shadow: none;
+    }
+
     #contact_message {
         background: url(../img/email-icon.png) no-repeat scroll;
         background-position: bottom 7px right 7px;
         background-size: 24px;
+        border-color: lightskyblue;
+    }
+
+    .submit-btn {
+        color: lightskyblue;
+        border-color: lightskyblue;
+        background-color: #fff;
+        height: 55px;
+        width: 100px;
+        float: right;
     }
 
     .tm-main-nav, .tm-content-header, .tm-main-content section {
