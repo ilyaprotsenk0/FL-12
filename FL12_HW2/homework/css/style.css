@@ -27,11 +27,11 @@
     }
     
     li:nth-child(odd){
-        text-align: end;
+        text-align: right;
     }
     
     li:nth-child(even){
-        text-align: start;
+        text-align: left;
     }
     
     h2 {
@@ -56,7 +56,6 @@
     .tm-nav-item-link:hover {
         color: #fff;
         background-color: lightskyblue;
-        transition: all .3s linear;
     }
 
     .tm-banner {
@@ -97,7 +96,6 @@
     .box-bg:hover {
         background-color: lightgray;
         font-style: italic;
-        transition: all .3s linear;
     }
 
     .tm-content-box .padding-medium h2 {
