@@ -153,12 +153,8 @@
         line-height: 30px;
     }
 
-    #contact_name:focus {
+    #contact_name:focus, #contact_email:focus {
         background-color: lightskyblue;
-    }
-
-    #contact_email:focus {
-        background-color:lightskyblue;
     }
 
     #contact_message {
