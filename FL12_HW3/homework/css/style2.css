@@ -1,0 +1,216 @@
+.landing-logo {
+  display: flex;
+  align-items: center;
+  font-family: "Fresca", sans-serif;
+}
+.landing-logo img {
+  width: 33px;
+  height: 33px;
+}
+.landing-logo p {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.landing-logo p span {
+  font-weight: 500;
+  font-size: 8px;
+  text-align: center;
+}
+
+body {
+  background: #21232e;
+}
+
+.header {
+  height: 520px;
+  background: url("../img/m-h-night.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 500px 0px / 0px 0px 200px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+}
+.header-wrap {
+  width: 400px;
+  margin-left: 125px;
+}
+.header-wrap div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 365px;
+}
+.header-wrap div:last-child .header_button {
+  width: 100px;
+  height: 35px;
+  background-color: #e1af02;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header-wrap div:last-child a {
+  color: white;
+}
+.header_heading {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 56px;
+  z-index: 1;
+}
+.header_heading::before {
+  position: absolute;
+  content: '';
+  width: 220px;
+  height: 45px;
+  bottom: 0px;
+  background-color: #ff4e34;
+  z-index: -1;
+}
+.header_text {
+  font-family: "Fresca", sans-serif;
+  width: 520px;
+  margin-bottom: 45px;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: pre-line;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_text {
+  position: relative;
+  z-index: 1;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+}
+.section_text::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  width: 125px;
+  left: 145px;
+  height: 30px;
+  background-color: #ff4e34;
+}
+.section_card {
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 800px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #3b3f50;
+  border-radius: 10px;
+}
+.section_card_img {
+  width: 120%;
+  border-radius: 5px;
+}
+.section_card_right_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.section_card_heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.section_card_text {
+  color: #a9abb5;
+  text-align: justify;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Fresca", sans-serif;
+}
+.section_link {
+  color: #a9abb5;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.section_banner {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #d5a61c, #95304e);
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.section_banner_heading {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  z-index: 1;
+  color: #2c2f3c;
+}
+.section_banner_heading::before {
+  position: absolute;
+  content: '';
+  width: 54px;
+  left: 96px;
+  height: 30px;
+  background-color: #ff4e34;
+  z-index: -1;
+}
+.section_banner_button {
+  width: 100px;
+  height: 35px;
+  background-color: #e1af02;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.section_banner_text {
+  font-size: 14px;
+  margin-bottom: 40px;
+  color: lightgray;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #3b3f50;
+  font-family: "Fresca", sans-serif;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lightgray;
+  height: 120px;
+  padding-top: 50px;
+  width: 1100px;
+}
+.footer_text, .footer-cr {
+  max-width: 300px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style2.css.map */
