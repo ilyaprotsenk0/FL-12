@@ -77,7 +77,7 @@ body {
 }
 .header_text {
   font-family: "Fresca", sans-serif;
-  width: 520px;
+  width: 550px;
   margin-bottom: 45px;
   font-size: 14px;
   line-height: 20px;
@@ -212,5 +212,3 @@ body {
   max-width: 300px;
   font-size: 14px;
 }
-
-/*# sourceMappingURL=style2.css.map */
