@@ -14,7 +14,7 @@ body, button {
   background-color: white;
 }
 .header-logo-nav-wrap, .footer-info {
-  width: 80%;
+  width: 1075px;
   display: flex;
   justify-content: space-between;
   align-items: center;
