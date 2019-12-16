@@ -1,6 +1,5 @@
 body, button {
-  font-family: 'Merriweather', serif;
-}
+  font-family: 'Merriweather', serif; }
 
 .header {
   width: 100%;
@@ -11,36 +10,29 @@ body, button {
   top: 0;
   left: 0;
   right: 0;
-  background-color: white;
-}
-.header-logo-nav-wrap, .footer-info {
-  width: 1075px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-nav {
-  width: 325px;
-}
-.header-nav-items {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-}
-.header-nav-items a {
-  text-decoration: none;
-  font-size: 12px;
-  color: #777;
-  letter-spacing: 1px;
-}
-.header-nav-items a:hover {
-  color: #bfba55;
-}
-.header-logo {
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 4px;
-}
+  background-color: white; }
+  .header-logo-nav-wrap {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header-nav {
+    width: 325px; }
+    .header-nav-items {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none; }
+      .header-nav-items a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #777;
+        letter-spacing: 1px; }
+        .header-nav-items a:hover {
+          color: #bfba55; }
+  .header-logo {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px; }
 
 .main-photo-container {
   width: 100%;
@@ -53,19 +45,16 @@ body, button {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-bg.jpg") no-repeat;
   background-size: cover;
   background-position: top center;
-  color: white;
-}
+  color: white; }
 .main-photo-header {
   font-size: 48px;
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 .main-photo-p {
   color: #bfba55;
   margin-top: 0px;
   font-size: 10px;
   letter-spacing: 2px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 .main-photo-button {
   width: 135px;
   height: 38px;
@@ -76,8 +65,7 @@ body, button {
   font-size: 9px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
-}
+  letter-spacing: 1px; }
 
 main {
   width: 100%;
@@ -85,48 +73,41 @@ main {
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .card {
   width: 800px;
   display: flex;
   flex-direction: column;
-  align-items: start;
-}
-.card-image {
-  width: 100%;
-}
-.card-info {
-  width: 320px;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-}
-.card-info-author-image {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.card-text, .footer-info p {
-  font-size: 12px;
-  line-height: 22px;
-  white-space: pre-wrap;
-  color: #777;
-}
-.card-button {
-  width: 145px;
-  height: 45px;
-  margin-top: 15px;
-  border: 1px solid silver;
-  border-radius: 20px;
-  background-color: white;
-  font-weight: 600;
-  color: #777;
-  letter-spacing: 1px;
-  font-size: 11px;
-}
+  align-items: start; }
+  .card-image {
+    width: 100%; }
+  .card-info {
+    width: 320px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px; }
+    .card-info-author-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+  .card-text, .footer-info p {
+    font-size: 12px;
+    line-height: 22px;
+    white-space: pre-wrap;
+    color: #777; }
+  .card-button {
+    width: 145px;
+    height: 45px;
+    margin-top: 15px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 600;
+    color: #777;
+    letter-spacing: 1px;
+    font-size: 11px; }
 
 hr {
   width: 800px;
@@ -134,8 +115,7 @@ hr {
   margin-bottom: 50px;
   border: none;
   height: 1px;
-  background-color: rgba(119, 119, 199, 0.3);
-}
+  background-color: rgba(119, 119, 199, 0.3); }
 
 .footer {
   width: 100%;
@@ -144,18 +124,18 @@ hr {
   align-items: center;
   justify-content: center;
   background-color: black;
-  color: white;
-}
-.footer-info {
-  width: 800px;
-}
-.footer-info h1 {
-  font-size: 20px;
-}
-.footer-info-leftblock {
-  width: 400px;
-  height: 200px;
-}
-.footer-info-rightblock {
-  height: 200px;
-}
+  color: white; }
+  .footer-info {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer-info h1 {
+      font-size: 20px; }
+    .footer-info-leftblock {
+      width: 400px;
+      height: 200px; }
+    .footer-info-rightblock {
+      height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
