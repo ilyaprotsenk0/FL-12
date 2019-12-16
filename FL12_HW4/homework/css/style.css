@@ -7,8 +7,10 @@ body, button {
   height: 75px;
   display: flex;
   justify-content: center;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   background-color: white;
 }
 .header-logo-nav-wrap, .footer-info {
@@ -43,11 +45,12 @@ body, button {
 .main-photo-container {
   width: 100%;
   height: 100vh;
+  margin-top: 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../img/home-bg.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-bg.jpg") no-repeat;
   background-size: cover;
   background-position: top center;
   color: white;
@@ -129,6 +132,9 @@ hr {
   width: 800px;
   margin-top: 50px;
   margin-bottom: 50px;
+  border: none;
+  height: 1px;
+  background-color: rgba(119, 119, 199, 0.3);
 }
 
 .footer {
@@ -153,3 +159,5 @@ hr {
 .footer-info-rightblock {
   height: 200px;
 }
+
+/*# sourceMappingURL=style.css.map */
