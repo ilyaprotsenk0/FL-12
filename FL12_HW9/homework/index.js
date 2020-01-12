@@ -62,10 +62,10 @@ function flipOver(str) {
 
 flipOver('hey world');
 
-function makeListFromRange(a) {
+function makeListFromRange(range) {
     let list = [],
-        begin = a[0],
-        end = a[1];
+        begin = range[0],
+        end = range[1];
 
     let listLenght = end - begin + 1;
         list[0] = begin;
@@ -95,12 +95,12 @@ function getArrayOfKeys (obj, key) {
 
 console.log(getArrayOfKeys(actors, 'name'));
 
-function substitute(a) {
-    let arr = [];
-    executeforEach(a, function (el) {
-        el < 30 ? arr.push('*') : arr.push(el);
+function substitute(inArr) {
+    let outArr = [];
+    executeforEach(inArr, function (el) {
+        el < 30 ? outArr.push('*') : outArr.push(el);
     });
-    return arr;
+    return outArr;
 }
 
 console.log(substitute([58, 14, 48, 2, 31, 29]));
@@ -114,15 +114,15 @@ function getPastDay(date, past) {
 
 console.log(getPastDay(date, 2));
 
-function formatDate(a) {
-    let year = a.getFullYear(),
-        month = a.getMonth(),
-        day = a.getDate(),
-        hour = a.getHours(),
-        minute = a.getMinutes();
+function formatDate(date) {
+    let year = date.getFullYear(),
+        month = date.getMonth(),
+        day = date.getDate(),
+        hour = date.getHours(),
+        minute = date.getMinutes();
 
     hour < 10 ? hour = '0' + hour : '';
     console.log(year+'/'+month+'/'+day+' '+hour+':'+minute);
 }
 
-formatDate(new Date('6/15/2018 21:15:00'));
+formatDate(new Date('6/15/2018 09:15:00'));
