@@ -73,6 +73,7 @@ function battle (fighter1, fighter2) {
     }
 
     while (fighter1.isAlive && fighter2.isAlive) {
+        
         if (fighter1.hp === 0) {
             fighter1.isAlive = false;
             fighter1.losses++;
