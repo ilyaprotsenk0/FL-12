@@ -36,19 +36,20 @@ function Fighter(name, damage, hp, strength, agility) {
     this.heal = function (points) {
         this.hp += points;
         this.isAlive = true;
+        
         if (this.hp > this.maxHP) {
             this.hp = this.maxHP;
         }
-
     }
     this.dealDamage = function(points) {
         this.hp -= points;
+        
         if (this.hp < 0) {
             this.hp = 0;
         }
     }
     this.attack = function(defender) {
-        let attackProb = this.strength + this.agility;
+        let attackProb = 100-(defender.strength + defender.agility);
         let missProb = Math.random() * 100;
 
         if (attackProb > missProb) {
